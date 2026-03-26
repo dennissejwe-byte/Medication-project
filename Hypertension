@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medication Adherence - Hypertension</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: #fff;
+}
+
+nav {
+  background: #1e293b;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #020617;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+footer {
+  background: #020617;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.student-list {
+  line-height: 1.8;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">Hypertension</a>
+  <a href="#importance">Importance</a>
+  <a href="#tips">Tips</a>
+  <a href="#students">Students</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <h1>Medication Adherence in Hypertension</h1>
+  <p>Improving Blood Pressure Control Through Proper Medication Use</p>
+  <button onclick="alert('Adherence saves lives in hypertension!')">Learn More</button>
+</section>
+
+<!-- UNIVERSITY LOGO -->
+<section style="text-align:center;">
+  <h2>University of Botswana</h2>
+  
+  <!-- Logo Image -->
+  
+
+  <p><strong>Faculty of Health Sciences</strong></p>
+</section>
+
+<!-- ABOUT / HYPERTENSION -->
+<section id="about">
+  <h2>Hypertension Overview</h2>
+  <p>
+    Hypertension (high blood pressure) is a chronic medical condition where the force of blood against artery walls is consistently too high. 
+    It is a major risk factor for heart disease, stroke, and kidney failure. Proper medication adherence is essential in controlling blood pressure and preventing complications.
+  </p>
+</section>
+
+<!-- IMPORTANCE -->
+<section id="importance">
+  <h2>Why Medication Adherence Matters in Hypertension</h2>
+
+  <div class="card">
+    <h3>Prevents Complications</h3>
+    <p>Reduces risk of stroke, heart attack, and kidney damage.</p>
+  </div>
+
+  <div class="card">
+    <h3>Controls Blood Pressure</h3>
+    <p>Ensures blood pressure remains within a safe range.</p>
+  </div>
+
+  <div class="card">
+    <h3>Improves Quality of Life</h3>
+    <p>Patients experience fewer symptoms and hospital visits.</p>
+  </div>
+</section>
+
+<!-- TIPS -->
+<section id="tips">
+  <h2>How to Improve Adherence</h2>
+
+  <div class="card">
+    <h3>Take Medication Daily</h3>
+    <p>Follow prescriptions exactly as directed by healthcare providers.</p>
+  </div>
+
+  <div class="card">
+    <h3>Monitor Blood Pressure</h3>
+    <p>Regular monitoring helps track progress and effectiveness.</p>
+  </div>
+
+  <div class="card">
+    <h3>Healthy Lifestyle</h3>
+    <p>Reduce salt intake, exercise regularly, and avoid smoking.</p>
+  </div>
+
+  <div class="card">
+    <h3>Use Reminders</h3>
+    <p>Set alarms or use pill organizers to avoid missed doses.</p>
+  </div>
+</section>
+
+<!-- STUDENTS -->
+<section id="students">
+  <h2>Student Group Members</h2>
+
+  <div class="student-list">
+    <p>DITSHUPO MATEBELE: 202300660</p>
+    <p>ELLEN MOKGALAGADI: 202301076</p>
+    <p>LENNY KABALANO: 202306799</p>
+    <p>GALALETSANG GASEKAGO: 202306884</p>
+    <p>LEKGOTLA OSHA: 202300975</p>
+    <p>DENNIS SEJWE: 202306413</p>
+    <p>TSHEPISO MASALA: 202301730</p>
+    <p>SHEILA KAHAKA: 202307074</p>
+    <p>KAONE MOKGADINYANE: 202304424</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact / Feedback</h2>
+
+  <form>
+    <input type="text" placeholder="Your Name" required><br><br>
+    <input type="email" placeholder="Your Email" required><br><br>
+    <textarea placeholder="Your Message"></textarea><br><br>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2026 Hypertension Medication Adherence Project</p>
+  <p><strong>University of Botswana</strong></p>
+  <p>Sources: WHO, CDC, Nursing Textbooks</p>
+</footer>
+
+</body>
+</html>
